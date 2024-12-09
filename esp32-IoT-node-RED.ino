@@ -6,9 +6,9 @@ const char* ssid = "TP-Link_GGWP";
 const char* password = "Dodecahedron!";
 
 // LED pins (active low)
-const int redPin = D1;
-const int greenPin = D2;
-const int bluePin = D3;
+const int bluePin= D1; 
+const int redPin= D2;
+const int greenPin= D3;
 
 // ESP8266 web server
 ESP8266WebServer server(80);
